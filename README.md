@@ -1,48 +1,42 @@
 
+
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <title>MY FIRST HTML5 PROJECT</title>
- <link rel="stylesheet" href="together.css"/>
+  <meta charset="UTF-8">
+  <title>INTRODUCTION TO HTML5</title>
 </head>
-<body>
- <header>
-   <h1>wajeed</h1>
-  <nav>
-     <a href="one.html">one</a>
-     <a href="two.html">two</a>
-     <a href="three.html">three</a>
-     <a href="img.html">image</a>
-  </nav>
- </header>
- <section>
-  <h2>Favorite Foods</h2>
-  <ul>
-   <li>biryani</li>
-   <li>pizza</li>
-   <li>noodles</li>
-   <li>kabab</li>
-  </ul>
- </section>
- <section>
-  <h2>Achievements</h2>
-    <p>Progress in this course (100%)<progress value="1"></progress><br/>
-    Progress in the specialization capstone (20%)<progress value="20" max="100"></progress><br/>
-    Progress in life goals (50%)<progress value="50" max="100"></progress><br/></p>
- </section>
- <section>
-  <h2>More about me</h2>
-  <details>
-    <summary>My Childhood</summary>
-     <p>stuffs happened, i grew up</p>
-  </details>
- </section>
- <footer>
- <p>
-  <img src="http://www.intro-webdesign.com/images/newlogo.png" alt="new logo">
-  This page was created by Farzana &Colleen van Lent.To learn more about webdesign, visit 
-  <a href="http://www.intro-webdesign.com">Intro to web design</a>
- </p>
- </footer>
+<body style="background-color:yellow;">
+  <header>
+       <h1>HYPERLINKS</h1>
+  </header>
+  <main>
+      knowing how to link your code to other document is important.
+  </main>
+  <table border="1">
+  <caption><b>child-parent details</b></caption>
+     <tr>
+       <th>child's name: </th><th>parent's name </th>
+     </tr>
+     <tr>
+        <td rowspan="2">farzana</td><td>abdul majeed</td>
+     </tr>
+     <tr>
+        <td>rizwana</td>
+     </tr>
+  </table>
+  <h1>video</h1>
+  <a href="sarkar.mkv">SARKAR</a>
+ <h1>audio</h1>
+ <audio src="css/demo.M4A" controls>
+ </audio><br>
+ <a href="firstproject.html">introduction to html</a><br>
+ <a href="farzana.JPEG">image of farzana</a>
+ <button type="button" onclick="alert('hi hello')">clickhere!</button><br>
+ <a href="http://www.umich.edu">hi</a><br>
+ <ul>
+  <li>hi</li>
+  <li>hello</li>
+  <li>how</li>
+ </ul>
 </body>
 </html>
