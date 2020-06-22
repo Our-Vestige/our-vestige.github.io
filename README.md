@@ -1,71 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>DISPLAY AND VISIBILITY</title>
-  <style>
-     span{
-           height:80px;
- 	   width:100px;
-	   background-color:#00ff00;
-         }
-     div{
-           height:400px;
- 	   width:30%;
-	   background-color:#00ffff;
-          display:inline-block;
- 	  float:left;
-          overflow:visible;
-         }
-     p{
-           height:150px;
- 	   width:200px;
-	   background-color:#0fffff;
-           clear:both;
-
-         }
-
-  </style>
+ <meta charset="UTF-8">
+ <title>MY FIRST HTML5 PROJECT</title>
+ <link rel="stylesheet" href="together.css"/>
 </head>
 <body>
-  <span>spanA</span>
-  <span>spanB</span>
-  <span>spanC</span>
-  <hr>
-  <div>A main memory consists of 64k words.
-A cache memory consists of 128 blocks that is total size of the cache is 2048 words were each block consists of 16 words.
-Direct mapping is implemented using BLOCK j % TOTAL NUMBER OF CACHE BLOCKS Where j means main memory block.
- Since the number of words in main memory is 64k therefore number of blocks in main memory is 64k/16=4096 blocks.
-To address 4096 blocks 12bits is required.
-Each block has 16 words to address that 4bits is required.
-The total number of bits to access a word from main memory is 16bits(12+4).A main memory consists of 64k words.
-
-</div>
-  <div>A cache memory consists of 128 blocks that is total size of the cache is 2048 words were each block consists of 16 words.
-Direct mapping is implemented using BLOCK j % TOTAL NUMBER OF CACHE BLOCKS Where j means main memory block.
- Since the number of words in main memory is 64k therefore number of blocks in main memory is 64k/16=4096 blocks.
-To address 4096 blocks 12bits is required.A cache memory consists of 128 blocks that is total size of the cache is 2048 words were each block consists of 16 words.
-Direct mapping is implemented using BLOCK j % TOTAL NUMBER OF CACHE BLOCKS Where j means main memory block.
- Since the number of words in main memory is 64k therefore number of blocks in main memory is 64k/16=4096 blocks.
-To address 4096 blocks 12bits is required.
-Each block has 16 words to address that 4bits is required.
-The total number of bits to access a word from main memory is 16bits(12+4).</div>
-
-  <div>A cache memory consists of 128 blocks that is total size of the cache is 2048 words were each block consists of 16 words.
-Direct mapping is implemented using BLOCK j % TOTAL NUMBER OF CACHE BLOCKS Where j means main memory block.
- Since the number of words in main memory is 64k therefore number of blocks in main memory is 64k/16=4096 blocks.
-To address 4096 blocks 12bits is required.A cache memory consists of 128 blocks that is total size of the cache is 2048 words were each block consists of 16 words.
-Direct mapping is implemented using BLOCK j % TOTAL NUMBER OF CACHE BLOCKS Where j means main memory block.
- Since the number of words in main memory is 64k therefore number of blocks in main memory is 64k/16=4096 blocks.
-To address 4096 blocks 12bits is required.A cache memory consists of 128 blocks that is total size of the cache is 2048 words were each block consists of 16 words.
-Direct mapping is implemented using BLOCK j % TOTAL NUMBER OF CACHE BLOCKS Where j means main memory block.
- Since the number of words in main memory is 64k therefore number of blocks in main memory is 64k/16=4096 blocks.
-To address 4096 blocks 12bits is required.
-Each block has 16 words to address that 4bits is required.
-The total number of bits to access a word from main memory is 16bits(12+4).</div>
-  <hr>
-  <p>paragraphA</p>
-  <p>paragraphB</p>
-  <p>paragraphC</p>
+ <header>
+   <h1>wajeed</h1>
+  <nav>
+     <a href="one.html">one</a>
+     <a href="two.html">two</a>
+     <a href="three.html">three</a>
+     <a href="img.html">image</a>
+  </nav>
+ </header>
+ <section>
+  <h2>Favorite Foods</h2>
+  <ul>
+   <li>biryani</li>
+   <li>pizza</li>
+   <li>noodles</li>
+   <li>kabab</li>
+  </ul>
+ </section>
+ <section>
+  <h2>Achievements</h2>
+    <p>Progress in this course (100%)<progress value="1"></progress><br/>
+    Progress in the specialization capstone (20%)<progress value="20" max="100"></progress><br/>
+    Progress in life goals (50%)<progress value="50" max="100"></progress><br/></p>
+ </section>
+ <section>
+  <h2>More about me</h2>
+  <details>
+    <summary>My Childhood</summary>
+     <p>stuffs happened, i grew up</p>
+  </details>
+ </section>
+ <footer>
+ <p>
+  <img src="http://www.intro-webdesign.com/images/newlogo.png" alt="new logo">
+  This page was created by Farzana &Colleen van Lent.To learn more about webdesign, visit 
+  <a href="http://www.intro-webdesign.com">Intro to web design</a>
+ </p>
+ </footer>
 </body>
 </html>
