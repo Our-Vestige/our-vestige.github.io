@@ -30,7 +30,8 @@
  <audio src="css/demo.M4A" controls>
  </audio><br>
  <a href="firstproject.html">introduction to html</a><br>
- <a href="farzana.JPEG">image of farzana</a>
+ <a href="https://drive.google.com/file/d/1GR-KEBPve25GUg-fnMj2WPJ2ePWBPHrv/view?usp=drivesdk
+Attachments area">images of products</a>
  <button type="button" onclick="alert('hi hello')">clickhere!</button><br>
  <a href="http://www.umich.edu">hi</a><br>
  <ul>
